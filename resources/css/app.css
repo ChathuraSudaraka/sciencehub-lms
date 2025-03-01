@@ -41,36 +41,6 @@ html {
         --ring: 265 89% 66%; /* Matching primary (violet) */
         --radius: 0.5rem;
     }
-
-    .dark {
-        --background: 222.2 84% 4.9%;
-        --foreground: 210 40% 98%;
-
-        --card: 222.2 84% 4.9%;
-        --card-foreground: 210 40% 98%;
-
-        --popover: 222.2 84% 4.9%;
-        --popover-foreground: 210 40% 98%;
-
-        --primary: 265 89% 66%; /* Updated to violet-500 */
-        --primary-foreground: 210 40% 98%;
-
-        --secondary: 226 70% 55.5%; /* Updated to indigo-500 */
-        --secondary-foreground: 210 40% 98%;
-
-        --muted: 265 25% 20%;
-        --muted-foreground: 265 20% 70%;
-
-        --accent: 265 25% 20%;
-        --accent-foreground: 210 40% 98%;
-
-        --destructive: 0 62.8% 30.6%;
-        --destructive-foreground: 210 40% 98%;
-
-        --border: 265 25% 20%;
-        --input: 265 25% 20%;
-        --ring: 265 89% 66%; /* Matching primary (violet) */
-    }
 }
 
 body {

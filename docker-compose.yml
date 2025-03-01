@@ -7,4 +7,5 @@ services:
       - .:/app
     ports:
       - "8000:8000"
+      - "5173:5173"
     user: "1000:1000"  # Use your host user's UID:GID for permissions

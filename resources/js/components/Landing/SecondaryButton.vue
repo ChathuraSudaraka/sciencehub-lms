@@ -8,11 +8,11 @@
     <button
       :class="[
         'inline-flex items-center justify-center rounded-full font-medium',
-        'border-2 border-violet-400 text-violet-500 dark:border-violet-300 dark:text-violet-300',
+        'border-2 border-violet-400 text-violet-500 prevdark:border-violet-300 prevdark:text-violet-300',
         'shadow-sm',
         'transition-all duration-200',
         'hover:bg-violet-50 hover:border-violet-500 hover:text-violet-600',
-        'dark:hover:bg-violet-300/10 dark:hover:border-violet-200 dark:hover:text-violet-200',
+        'prevdark:hover:bg-violet-300/10 prevdark:hover:border-violet-200 prevdark:hover:text-violet-200',
         'disabled:opacity-70 disabled:cursor-not-allowed',
         sizeClasses[size],
         { 'animate-pulse': loading }

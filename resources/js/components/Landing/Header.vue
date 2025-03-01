@@ -6,7 +6,7 @@
     <header :class="[
       'mx-auto max-w-7xl rounded-full transition-all duration-300 px-6 py-4',
       {
-        'bg-white/95 backdrop-blur-xl shadow-[0_8px_30px_rgb(0,0,0,0.12)] dark:bg-gray-900/95 translate-y-0': isScrolled
+        'bg-white/95 backdrop-blur-xl shadow-[0_8px_30px_rgb(0,0,0,0.12)] prevdark:bg-gray-900/95 translate-y-0': isScrolled
       },
       {
         'bg-white/5 backdrop-blur-sm translate-y-1': !isScrolled

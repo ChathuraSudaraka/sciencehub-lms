@@ -8,7 +8,7 @@
       duration: 0.8,
       ease: 'easeInOut',
     }" class="relative flex flex-col items-center justify-center gap-6 px-4 min-h-screen max-w-6xl mx-auto">
-    <div class="mt-10 text-center text-3xl font-display font-bold md:text-5xl lg:text-6xl dark:text-white">
+    <div class="mt-10 text-center text-3xl font-display font-bold md:text-5xl lg:text-6xl prevdark:text-white">
       Unlock Your
       <span
         class="inline-block bg-gradient-to-r from-violet-600 via-fuchsia-500 to-indigo-400 text-transparent bg-clip-text">
@@ -17,7 +17,7 @@
       Learning
       <br /> Adventure Today!
     </div>
-    <div class="max-w-2xl text-center py-4 text-base md:text-lg font-light leading-relaxed dark:text-neutral-200">
+    <div class="max-w-2xl text-center py-4 text-base md:text-lg font-light leading-relaxed prevdark:text-neutral-200">
       Welcome to our innovative LMS designed specifically for science enthusiasts! Experience engaging lesson
       recordings, interactive quizzes, and earn Science Stars.
     </div>

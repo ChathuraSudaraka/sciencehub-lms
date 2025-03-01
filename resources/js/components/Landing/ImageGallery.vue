@@ -1,5 +1,5 @@
 <template>
-  <section class="relative overflow-hidden bg-gray-50 dark:bg-gray-900 py-16">
+  <section class="relative overflow-hidden bg-gray-50 prevdark:bg-gray-900 py-16">
     <div class="grid grid-cols-2 md:grid-cols-4 auto-rows-[200px] md:auto-rows-[300px] gap-4 px-4 max-w-7xl mx-auto">
       <!-- Row 1 -->
       <Motion

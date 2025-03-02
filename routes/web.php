@@ -38,6 +38,13 @@ Route::middleware(['auth', 'verified'])
                 ]);
             })->name('show');
         });
+
+        // Moderator management routes
+        Route::prefix('moderators')->name('moderators.')->group(function () {
+            Route::get('/', function () {
+                return Inertia::render('console/moderators/Index');
+            })->name('index');
+        });
     });
 
 require __DIR__ . '/settings.php';

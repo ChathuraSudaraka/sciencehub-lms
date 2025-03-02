@@ -1,0 +1,4 @@
+- use shadcn as the ui library
+- don't write dark mode classes
+- use "npm shadcn@latest <command>" Command for shadcn related tasks
+- design should be clean and minimal

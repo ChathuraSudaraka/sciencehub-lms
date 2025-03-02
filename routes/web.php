@@ -17,11 +17,11 @@ Route::middleware(['auth', 'verified'])
 
         Route::prefix('students')->name('students.')->group(function () {
             Route::get('/', function () {
-                return Inertia::render('Students');
+                return Inertia::render('console/students/Index');
             })->name('index');
 
             Route::get('/{student}', function ($student) {
-                return Inertia::render('Student', [
+                return Inertia::render('console/students/Show', [
                     'student' => $student,
                 ]);
             })->name('show');
@@ -29,11 +29,11 @@ Route::middleware(['auth', 'verified'])
 
         Route::prefix('/classes')->name('classes.')->group(function () {
             Route::get('/', function () {
-                return Inertia::render('Classes');
+                return Inertia::render('console/classes/Index');
             })->name('index');
 
             Route::get('/{class}', function ($class) {
-                return Inertia::render('Class', [
+                return Inertia::render('console/classes/Show', [
                     'class' => $class,
                 ]);
             })->name('show');

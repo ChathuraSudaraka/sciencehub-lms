@@ -23,19 +23,19 @@ export const coreNavItems: NavSection = {
     items: [
         {
             title: 'Dashboard',
-            href: '/dashboard',
+            href: '/console/dashboard',
             icon: LayoutGrid,
             access: ['admin', 'moderator', 'student']
         },
         {
             title: 'Join Requests',
-            href: '/join-requests',
+            href: '/console/join-requests',
             icon: Users,
             access: ['admin']
         },
         {
             title: 'Resources Hub',
-            href: '/resources-hub',
+            href: '/console/resources-hub',
             icon: MessageCircle,
             access: ['admin', 'moderator', 'student']
         }
@@ -48,25 +48,25 @@ export const academicNavItems: NavSection = {
     items: [
         {
             title: 'Classes',
-            href: '/classes',
+            href: '/console/classes',
             icon: BookOpen,
             access: ['admin', 'moderator', 'student']
         },
         {
             title: 'Attendance',
-            href: '/attendance',
+            href: '/console/attendance',
             icon: CalendarCheck,
             access: ['admin', 'moderator', 'student']
         },
         {
             title: 'Lessons',
-            href: '/lessons',
+            href: '/console/lessons',
             icon: GraduationCap,
             access: ['admin', 'moderator', 'student']
         },
         {
             title: 'Quizzes',
-            href: '/quizzes',
+            href: '/console/quizzes',
             icon: ClipboardList,
             access: ['admin', 'moderator', 'student']
         }
@@ -79,25 +79,25 @@ export const adminNavItems: NavSection = {
     items: [
         {
             title: 'Student Management',
-            href: '/admin/students',
+            href: '/console/students',
             icon: Users,
             access: ['admin', 'moderator']
         },
         {
             title: 'Moderator Management',
-            href: '/admin/moderators',
+            href: '/console/moderators',
             icon: UserCog,
             access: ['admin']
         },
         {
             title: 'Fees Management',
-            href: '/admin/fees',
+            href: '/console/fees',
             icon: CreditCard,
             access: ['admin']
         },
         {
             title: 'Product Management',
-            href: '/admin/products',
+            href: '/console/products',
             icon: ShoppingBag,
             access: ['admin']
         }

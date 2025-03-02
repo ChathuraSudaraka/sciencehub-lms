@@ -19,7 +19,7 @@ const navigationSections = filterNavigationByRole(allNavSections, userRole);
             <SidebarMenu>
                 <SidebarMenuItem>
                     <SidebarMenuButton size="lg" as-child>
-                        <Link :href="route('dashboard')" class="flex items-start gap-2">
+                        <Link :href="route('console.dashboard')" class="flex items-start gap-2">
                             <img src="/logo.png" alt="ScienceHub Logo" class="h-8 w-auto" />
                             <div class="flex flex-col justify-start text-left">
                                 <div class="text-sm font-semibold whitespace-nowrap">

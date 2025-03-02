@@ -16,9 +16,8 @@ RUN apk update && apk upgrade && \
 # Install composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
-RUN apk add --no-cache $PHPIZE_DEPS openssl-dev \
-    && pecl install mongodb \
-    && docker-php-ext-enable mongodb \
+RUN apk add --no-cache $PHPIZE_DEPS postgresql-dev \
+    && docker-php-ext-install pdo pdo_pgsql \
     && docker-php-ext-install pcntl
 
 # Set ownership
